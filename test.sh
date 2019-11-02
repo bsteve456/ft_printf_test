@@ -1,6 +1,6 @@
 gcc -Wall -Werror -Wextra printf_case.c -o true_printf
 ./true_printf > expected
-gcc -Wall -Werror -Wextra ft_printf_case.c ../ft_printf.c -o my_printf
+gcc -Wall -Werror -Wextra ft_printf_case.c ../ft_printf.c ../srcs/*.c -o my_printf
 ./my_printf > output
 DIFF=$(diff expected output)
 if [ "$DIFF" != "" ]
