@@ -6,7 +6,7 @@
 /*   By: blacking <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/01 16:11:50 by blacking          #+#    #+#             */
-/*   Updated: 2019/11/05 15:52:56 by blacking         ###   ########.fr       */
+/*   Updated: 2019/11/06 10:53:50 by blacking         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,5 +38,5 @@ int main()
 	printf("%d\n", res);
 	res = printf("asddsddssddsddsd %%\n");
 	printf("%d\n", res);
-
+	printf("%*d\n", 5, 5);
 }
