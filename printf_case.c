@@ -6,7 +6,7 @@
 /*   By: blacking <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/01 16:11:50 by blacking          #+#    #+#             */
-/*   Updated: 2019/11/08 14:54:46 by blacking         ###   ########.fr       */
+/*   Updated: 2019/11/09 14:37:06 by blacking         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,5 +25,12 @@ int main()
 	printf("%3x, %3X\n", -42, -42);
 	printf("dsdsds %5s, %5s\n", "zez", "ddsdsddddffd");
 	printf("%10c\n", 'a');
-	printf("%%");
+	printf("%%\n");
+	printf("%-5d\n", 5);
+	printf("%-10d\n", 123);
+	printf("%010d\n", 123);
+	printf("%010d", -123);
+
+
+
 }

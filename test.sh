@@ -11,4 +11,4 @@ if [ "$DIFF" != "" ]
 		echo "OK"
 	fi
 diff -u expected output > diff_file
-rm my_printf true_printf expected output
+rm my_printf true_printf output
