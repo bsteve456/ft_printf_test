@@ -6,7 +6,7 @@
 /*   By: blacking <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/01 16:11:50 by blacking          #+#    #+#             */
-/*   Updated: 2019/11/09 18:40:12 by blacking         ###   ########.fr       */
+/*   Updated: 2019/11/11 14:06:14 by blacking         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,5 +30,7 @@ int main()
 	ft_printf("%-10d\n", 123);
 	ft_printf("%010d\n", 123);
 	ft_printf("%010d\n", -123);
-	ft_printf("%6p", NULL);
+	ft_printf("%.4d\n", 234);
+	ft_printf("%.4d\n", -234);
+	ft_printf("%.4s", "abcdefghi");
 }
