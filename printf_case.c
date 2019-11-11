@@ -6,7 +6,7 @@
 /*   By: blacking <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/01 16:11:50 by blacking          #+#    #+#             */
-/*   Updated: 2019/11/11 14:06:49 by blacking         ###   ########.fr       */
+/*   Updated: 2019/11/11 15:15:32 by blacking         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,5 +32,6 @@ int main()
 	printf("%010d\n", -123);
 	printf("%.4d\n",234);
 	printf("%.4d\n",-234);
-	printf("%.4s", "abcdefghi");
+	printf("%.4s\n", "abcdefghi");
+	printf("%5.4d\n",234);
 }
