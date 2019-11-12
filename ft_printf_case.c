@@ -6,11 +6,12 @@
 /*   By: blacking <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/01 16:11:50 by blacking          #+#    #+#             */
-/*   Updated: 2019/11/12 15:52:44 by stbaleba         ###   ########.fr       */
+/*   Updated: 2019/11/12 18:17:55 by stbaleba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "../includes/libftprintf.h"
+int		ft_printf(const char *str, ...);
 
 int main()
 {
@@ -43,5 +44,6 @@ int main()
 	ft_printf("%%%d\n", 5);
 	ft_printf("%s\n", NULL);
 	ft_printf("%.2s\n", NULL);
-	ft_printf("%10%");
+	ft_printf("%10%\n");
+	ft_printf("%08.6d", 5);
 }
