@@ -6,7 +6,7 @@
 /*   By: blacking <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/01 16:11:50 by blacking          #+#    #+#             */
-/*   Updated: 2019/11/11 17:15:07 by blacking         ###   ########.fr       */
+/*   Updated: 2019/11/12 11:49:48 by blacking         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,6 +35,7 @@ int main()
 	printf("%.4s\n", "abcdefghi");
 	printf("%5.4d\n",234);
 	printf("%*d\n", 5, 6);
-	printf("%.*d", 5, 6);
-
+	printf("%.*d\n", 5, 6);
+	printf("%p\n", NULL);
+	printf("%*d", -10, 5);
 }
