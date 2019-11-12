@@ -6,7 +6,7 @@
 /*   By: blacking <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/01 16:11:50 by blacking          #+#    #+#             */
-/*   Updated: 2019/11/12 13:07:13 by blacking         ###   ########.fr       */
+/*   Updated: 2019/11/12 15:52:54 by stbaleba         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,5 +40,8 @@ int main()
 	printf("%*d\n", -10, 5);
 	printf("%.*d\n", -10, 5);
 	printf("%.d\n", 5);
-	printf("%%%d", 5);
+	printf("%%%d\n", 5);
+	printf("%s\n", NULL);
+	printf("%.2s\n", NULL);
+	printf("%10%");
 }
